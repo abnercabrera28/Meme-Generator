@@ -13,4 +13,6 @@ body {
   justify-content: space-between;
   height: 65px;
   background: linear-gradient(90deg, darkgreen 1.18%, #85f274 100%);
+  color: white;
+  padding: 20px;
 }
