@@ -1,8 +1,14 @@
 import React from "react";
+import xzibit from "../images/Xzibit.png"
+
 
 const Header = () => {
     return (
-        <h1>Hello World</h1>
+        <header>
+            <img src={xzibit} alt="xzibhit"></img>
+            <h2>Hello</h2>
+            <h4>some more</h4>
+        </header>
     )
 }
 
