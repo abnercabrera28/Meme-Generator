@@ -4,7 +4,7 @@ import xzibit from "../images/Xzibit.png"
 
 const Header = () => {
     return (
-        <header>
+        <header className="header">
             <img src={xzibit} alt="xzibhit"></img>
             <h2>Hello</h2>
             <h4>some more</h4>
