@@ -10,9 +10,14 @@ body {
 .header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   height: 65px;
-  background: linear-gradient(90deg, darkgreen 1.18%, #85f274 100%);
+  background: linear-gradient(90deg, darkgreen 1.18%, #33bb1e 100%);
   color: white;
   padding: 20px;
+}
+
+.x-img {
+  height: 55px;
+  padding-right: 10px;
 }
