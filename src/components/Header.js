@@ -5,9 +5,8 @@ import xzibit from "../images/Xzibit.png"
 const Header = () => {
     return (
         <header className="header">
-            <img src={xzibit} alt="xzibhit"></img>
-            <h2>Hello</h2>
-            <h4>some more</h4>
+            <img className="x-img" src={xzibit} alt="xzibhit"></img>
+            <h2 className="header-title">Meme Generator</h2>
         </header>
     )
 }
