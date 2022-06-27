@@ -2,7 +2,7 @@ import React from "react";
 
 const Meme = () => {
     return (
-        <div>
+        <div className="meme-container">
             <form className="form">
                 <input 
                     placeholder="Top text" 
