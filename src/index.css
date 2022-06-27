@@ -36,6 +36,7 @@ body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   border-radius: 5px;
   text-indent: 3px;
+  border: 1px solid;
 }
 
 .form-button {
@@ -46,4 +47,5 @@ body {
   font-size: large;
   cursor: pointer;
   border-radius: 5px;
+  border: none;
 }
