@@ -32,6 +32,18 @@ body {
   gap: 20px;
 }
 
+.form-input {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-radius: 5px;
+  text-indent: 3px;
+}
+
 .form-button {
   grid-column: 1 / -1;
+  background: linear-gradient(90deg, darkgreen 1.18%, #33bb1e 100%);
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+  cursor: pointer;
+  border-radius: 5px;
 }
