@@ -1,6 +1,13 @@
 import React from "react";
 
 const Meme = () => {
+
+    const getImage = () => {
+        alert("Clicked!")
+    }
+
+
+
     return (
         <div className="meme-container">
             <form className="form">
@@ -14,6 +21,7 @@ const Meme = () => {
                 />
                 <button
                     className="form-button"
+                    onClick={getImage}
                 >
                     Submit
                 </button>
