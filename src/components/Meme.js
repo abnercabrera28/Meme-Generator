@@ -6,11 +6,15 @@ const Meme = () => {
         alert("Clicked!")
     }
 
+    const handleSubmit = (e) => {
+        e.preventDefault()
+    }
+
 
 
     return (
         <div className="meme-container">
-            <form className="form">
+            <form className="form" onSubmit={handleSubmit}>
                 <input 
                     placeholder="Top text" 
                     className="form-input"   
