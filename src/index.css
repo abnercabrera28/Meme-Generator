@@ -49,3 +49,7 @@ body {
   border-radius: 5px;
   border: none;
 }
+
+.meme-image {
+  max-width: 100%;
+}
