@@ -39,7 +39,11 @@ const Meme = () => {
                     Submit
                 </button>
             </form>
-            <img src={memeImage} className="meme-image" />
+            <div className="meme">
+                <img src={memeImage} className="meme-image" />
+                <h2 className="meme-top-text"></h2>
+                <h2 className="meme-bottom-text"></h2>
+            </div>
         </div>
     )
 }
