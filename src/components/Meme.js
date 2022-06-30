@@ -1,13 +1,22 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 const Meme = () => {
 
-    const getImage = () => {
-        alert("Clicked!")
-    }
+    const [memeImage, setMemeImage] = useState("")
+
+    useEffect(() => {
+        fetch("https://api.imgflip.com/get_memes")
+            .then(res => res.json())
+            .then(data => console.log(data.data.memes))
+    }, [])
+
 
     const handleSubmit = (e) => {
         e.preventDefault()
+
+        // const memesArray = 
+        // const randomNumber = Math.floor(Math.random() * memes.length)
+        // setMemeImage(memes[randomNumber].url)
     }
 
 
@@ -25,12 +34,12 @@ const Meme = () => {
                 />
                 <button
                     className="form-button"
-                    onClick={getImage}
+                    onClick={handleSubmit}
                 >
                     Submit
                 </button>
             </form>
-
+            <img src={memeImage} className="meme-image" />
         </div>
     )
 }
