@@ -51,6 +51,7 @@ body {
 }
 
 .meme {
+  position: relative;
   display: flex;
   justify-content: center;
 }
