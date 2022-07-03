@@ -27,6 +27,14 @@ const Meme = () => {
         }))
     }
 
+    const handleChange = (e) => {
+        const {name, value} = e.target
+        setMeme(prevMeme => ({
+            ...prevMeme,
+            [name]: value
+        }))
+    }
+
 
 
     return (
