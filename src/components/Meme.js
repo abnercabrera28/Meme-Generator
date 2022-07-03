@@ -63,8 +63,8 @@ const Meme = () => {
             </form>
             <div className="meme">
                 <img src={meme.randomImage} className="meme-image" />
-                <h2 className="meme-text top"></h2>
-                <h2 className="meme-text bottom"></h2>
+                <h2 className="meme-text top">{meme.topText}</h2>
+                <h2 className="meme-text bottom">{meme.bottomText}</h2>
             </div>
         </div>
     )
