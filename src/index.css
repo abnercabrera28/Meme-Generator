@@ -50,6 +50,11 @@ body {
   border: none;
 }
 
+.meme {
+  display: flex;
+  justify-content: center;
+}
+
 .meme-image {
   max-width: 100%;
 }
