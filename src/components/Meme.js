@@ -34,11 +34,17 @@ const Meme = () => {
             <form className="form" onSubmit={handleSubmit}>
                 <input 
                     placeholder="Top text" 
-                    className="form-input"   
+                    className="form-input"
+                    name="topText" 
+                    value={meme.topText} 
+                    onChange={handleChange}
                 />
                 <input 
                     placeholder="Bottom text"
                     className="form-input"
+                    name="bottomText"
+                    value={meme.bottomText}
+                    onChange={handleChange}
                 />
                 <button
                     className="form-button"
