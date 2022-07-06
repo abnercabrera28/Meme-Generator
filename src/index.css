@@ -77,3 +77,11 @@ body {
 .meme-image {
   max-width: 100%;
 }
+
+.top {
+  top: 0;
+}
+
+.bottom {
+  bottom: 0;
+}
