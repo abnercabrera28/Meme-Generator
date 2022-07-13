@@ -58,7 +58,7 @@ const Meme = () => {
                     className="form-button"
                     onClick={handleSubmit}
                 >
-                    Submit
+                    Generate New Image
                 </button>
             </form>
             <div className="meme">
